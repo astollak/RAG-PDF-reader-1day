@@ -19,7 +19,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 from pydantic import SecretStr
 
-pdf_file = "2504.15585v4.pdf"
+pdf_file = "2504.15585v4.pdf" # https://arxiv.org/abs/2504.15585
 
 # Load & chunk PDF article
 article = PyPDFLoader(pdf_file).load()
